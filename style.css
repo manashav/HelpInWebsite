@@ -1,0 +1,432 @@
+a.nav:link, a.nav:visited
+{
+	color:Black;
+	font-size:20px;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	text-decoration:none;
+	margin:0.5%;
+	padding-left:1%;
+	padding-right:1%;
+	padding:0.5%;
+	-webkit-transition: 0.25s;
+}
+a.nav:hover, a.nav:active
+{
+	color:gray;
+	font-size:20px;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	text-decoration:none;
+	border-color:DarkCyan;
+	border-width: thick;
+	margin:0.5%;
+	padding-left:1%;
+	padding-right:1%;
+	padding:0.5%;
+	-webkit-transition: 0.25s;
+}
+a.navclicked
+{
+	background: rgba(231, 241, 239, 0.43);
+    border-radius: 10px;
+	color:grey;
+	font-size:20px;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	text-decoration:none;
+	border-color:DarkCyan;
+	border-width: thick;
+	margin:0.5%;
+	padding-left:1%;
+	padding-right:1%;
+	padding:0.5%;
+	-webkit-transition: 0.25s;
+}
+nav
+{
+    background: white;
+	text-align:center;
+}
+body
+{
+
+	background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%) repeat right center fixed;
+   
+}
+
+h1
+{
+    padding-left: 10%;
+    /* Heading/Bold/Heading 2 - 64px */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
+    /* or 137% */
+    
+    
+    color: #626262;
+}
+
+
+.smallBoxes
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 331.39px;
+    height: 358.97px;
+
+    margin-left: 7%;
+    align-self: center;
+    justify-self: center;
+    background: white;
+    border-radius: 16px;
+
+    
+}
+.container
+{
+	display: inline-block;
+
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 331.39px;
+    height: 358.97px;
+	margin-top: 15%;
+    margin-left: 7%;
+    align-self: center;
+    justify-self: center;
+    background: white;
+    border-radius: 16px;
+}
+.icon
+{
+	text-align:center;
+}
+.name
+{
+	text-align:center;
+}
+.box
+{
+    position: static;
+width: 299.39px;
+height: 30.97px;
+left: 16px;
+top: 16px;
+
+/* Other/Image Placeholder */
+
+background: #EBEBEB;
+border-radius: 8px;
+}
+button
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+position: absolute;
+width: 132.56px;
+height: 32.15px;
+text-align: center;
+top: 555px;
+margin-left:5%;
+background: #E7F1F0;
+border: 1px solid #A7C5FF;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.organizations
+{
+	position: absolute;
+width: 701px;
+height: 154px;
+left: 146px;
+top: 128px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 100% */
+
+
+color: #474747;
+
+}
+.wfp
+{
+	position: absolute;
+	width: 87px;
+	height: 94px;
+	left: 28px;
+	top: 134px;
+
+background: url(World_Food_Programme.png);
+}
+.wfw
+{
+	position: absolute;
+width: 87px;
+height: 97px;
+left: 28px;
+top: 323px;
+background: url(WomenforWomen.png);
+}
+.ci
+{
+	position: absolute;
+width: 89px;
+height: 97px;
+left: 26px;
+top: 473px;
+background: url(childrenInternational.png);
+}
+
+
+
+.square2 {position: absolute; height: 500px;width: 550px; left: 512px; top: 125px;  background-color: #FFFFFF;border-radius: 25px;}
+
+.loginName {position: absolute; height: 60px;width: 60px; left: 740px; top: 140px;  background-color: #FFFFFF;
+
+	font-family: Inter;
+
+	color: #474747; align-content: center;
+
+		font-style: medium;
+
+		font-weight: 0;
+
+		font-size: 40;
+
+		line-height: 50px;
+
+}
+
+.userName {position: absolute; height: 30px;width: 60px; left: 550px; top: 210px;  background-color: #FFFFFF;
+
+	font-family: Inter;
+
+	color: #474747;
+
+		font-style: medium;
+
+		font-weight: 500;
+
+		font-size: 23;
+
+		line-height: 50px;
+
+}
+
+.typeName {position: absolute; height: 30px;width: 300px; left: 550px; top: 250px;  background-color: #FFFFFF;
+
+	font-family: Inter;
+
+	color: rgba(71, 71, 71, 0.74);
+
+		font-style: lighter;
+
+		font-weight: 500;
+
+		font-size: 23;
+
+		line-height: 50px;
+
+}
+
+.userName2 {position: absolute; height: 30px;width: 60px; left: 550px; top: 290px;  background-color: #FFFFFF;
+
+	font-family: Inter;
+
+	color: #474747;
+
+		font-style: medium;
+
+		font-weight: 500;
+
+		font-size: 23;
+
+		line-height: 50px;
+
+}
+
+.typeName2 {position: absolute; height: 30px;width: 300px; left: 550px; top: 330px;  background-color: #FFFFFF;
+
+	font-family: Inter;
+
+	color: rgba(71, 71, 71, 0.74);
+
+		font-style: lighter;
+
+		font-weight: 500;
+
+		font-size: 23;
+
+		line-height: 50px;
+
+}
+
+.forgotPass {position: absolute; height: 60px;width: 200px; left: 900px; top: 360px;  
+
+	font-family: Inter;
+
+	color: #696868;
+
+		font-style: lighter;
+
+		font-weight: 500;
+
+		font-size: 17;
+
+}
+
+.button1 {position: absolute; color:black;background-color: #E2EEEC;left: 750px; top:410px; height:40px; width:80px;text-align: center;font-size: 16px;border-radius: 10px;
+
+}
+
+.square2 {position: absolute; height: 500px;width: 550px; left: 512px; top: 125px;  background-color: #FFFFFF;border-radius: 25px;}
+
+        .signUp {position: absolute; height: 60px;width: 60px; left: 740px; top: 140px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: #474747; align-content: center;
+
+                font-style: medium;
+
+                font-weight: 0;
+
+                font-size: 40;
+
+                line-height: 50px;
+
+        }
+
+        .userName {position: absolute; height: 80px;width: 100px; left: 550px; top: 210px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: #474747;
+
+                font-style: medium;
+
+                font-weight: 500;
+
+                font-size: 23;
+
+                line-height: 50px;
+
+        }
+
+        .typeName {position: absolute; height: 30px;width: 300px; left: 550px; top: 250px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: rgba(71, 71, 71, 0.74);
+
+                font-style: lighter;
+
+                font-weight: 500;
+
+                font-size: 23;
+
+                line-height: 50px;
+
+        }
+
+        .email {position: absolute; height: 30px;width: 60px; left: 550px; top: 290px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: #474747;
+
+                font-style: medium;
+
+                font-weight: 500;
+
+                font-size: 23;
+
+                line-height: 50px;
+
+        }
+
+        .typeName2 {position: absolute; height: 30px;width: 300px; left: 550px; top: 330px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: rgba(71, 71, 71, 0.74);
+
+                font-style: lighter;
+
+                font-weight: 500;
+
+                font-size: 23;
+
+                line-height: 50px;
+
+        }
+
+        .password {position: absolute; height: 30px;width: 60px; left: 550px; top: 370px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: #474747;
+
+                font-style: medium;
+
+                font-weight: 500;
+
+                font-size: 23;
+
+                line-height: 50px;
+
+        }
+
+        .typeName3 {position: absolute; height: 30px;width: 300px; left: 550px; top: 410px;  background-color: #FFFFFF;
+
+            font-family: Inter;
+
+            color: rgba(71, 71, 71, 0.74);
+
+                font-style: lighter;
+
+                font-weight: 500;
+
+                font-size: 23;
+
+                line-height: 50px;
+
+        }
+
+        .agreeToTerms {position: absolute; height: 60px;width: 300px; right: 550px; top: 460px;  
+
+            font-family: Inter;
+
+            color: #696868;
+
+                font-style: lighter;
+
+                font-weight: 500;
+
+                font-size: 17;
+
+        }
+
+        .button1 {position: absolute; color:black;background-color: #E2EEEC;left: 750px; top:510px; height:40px; width:80px;text-align: center;font-size: 16px;border-radius: 10px;
+
+        }
+
+
+
+
